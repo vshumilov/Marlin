@@ -70,7 +70,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "v.shumilov_a4988+drv8825 +linear_avdance (Marlin-2.0.7.2)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "v.shumilov_a4988+drv8825 +linear_avdance (Marlin-2.0.7.2) update 2020-12-15" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -687,7 +687,7 @@
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
 #define E0_DRIVER_TYPE A4988
-//#define E1_DRIVER_TYPE A4988
+#define E1_DRIVER_TYPE TMC2130      //vshumilov
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
